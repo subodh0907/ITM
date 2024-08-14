@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Evolution Project</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+}
+nav {
+background-color: #333;
+color: white;
+padding: 10px;
+}
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+nav ul li {
+display: inline;
+margin-right: 10px;
+}
+nav a {
+color: white;
+text-decoration: none;
+}
+form {
+margin-top: 20px;
+padding: 10px;
+border: 1px solid #ccc;
+}
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+table, th, td {
+border: 1px solid black;
+padding: 10px;
+text-align: left;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>HTML Evolution Project</h1>
+</header>
+<nav>
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#form">Form</a></li>
+<li><a href="#table">Table</a></li>
+<li><a href="#video">Video</a></li>
+<li><a href="#footer">Footer</a></li>
+</ul>
+</nav>
+<article>
+<section id="introduction">
+<h2>Introduction to HTML Evolution</h2>
+<p>This project demonstrates the evolution of HTML from version 1.0 to␣
+,→HTML 5. Below you will find examples of features introduced in each version.</p>
+<h3>Recipe: How to Make Tea</h3>
+<ol>
+<li>Boil water.</li>
+<li>Add tea leaves or a tea bag.</li>
+<li>Let it steep for a few minutes.</li>
+<li>Pour the tea into a cup.</li>
+<li>Add sugar or milk if desired.</li>
+</ol>
+<h3>My Favorite Books</h3>
+<ul>
+<li>1984 by George Orwell</li>
+<li>To Kill a Mockingbird by Harper Lee</li>
+<li>The Great Gatsby by F. Scott Fitzgerald</li>
+</ul>
+<p>Visit my <a href="http://www.example.com">favorite website</a> for␣
+,→more information.</p>
+</section>
+<section id="form">
+<h2>Contact Us</h2>
+<form action="/submit" method="post">
+<label for="name">Name:</label>
+<input type="text" id="name" name="name"><br><br>
+<label for="email">Email:</label>
+<input type="text" id="email" name="email"><br><br>
+<label for="comments">Comments:</label><br>
+<textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+,→<br><br>
+<input type="submit" value="Submit">
+</form>
+</section>
+<section id="table">
+<h2>Product List</h2>
+<table>
+<tr>
+<th><font color="blue" size="4">Product</font></th>
+<th><font color="blue" size="4">Price</font></th>
+</tr>
+<tr>
+<td><font size="3">Tea</font></td>
+<td><font size="3">$2.00</font></td>
+</tr>
+<tr>
+<td><font size="3">Coffee</font></td>
+<td><font size="3">$3.00</font></td>
+</tr>
+</table>
+</section>
+<section id="video">
+<h2>Watch this Video</h2>
+<video width="320" height="240" controls>
+<source src="video.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</section>
+</article>
+<footer id="footer">
+<p>Contact us at <a href="mailto:info@example.com">info@example.com</a></p>
+</footer>
+</body>
+</html>
